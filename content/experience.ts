@@ -1,6 +1,6 @@
 import { ExperienceContent } from "./types";
 
-const expereince : ExperienceContent = {
+const experience : ExperienceContent = {
     title: "My Experience",
     job_title_fte: "Software Engineer",
     job_description_fte: "In finibus pellentesque euismod. Suspendisse potenti. Nam rutrum metus vel rhoncus hendrerit. Sed tincidunt neque varius nulla tempor, ac hendrerit nibh suscipit. In blandit rutrum mattis. Suspendisse non semper nunc. Pellentesque at maximus est, eget aliquet orci.",
@@ -10,4 +10,4 @@ const expereince : ExperienceContent = {
     personal_project_description: "Integer gravida est vel eros molestie condimentum. Nunc porttitor nisl non ultricies bibendum. Etiam quis suscipit orci, sit amet vehicula eros. Suspendisse placerat nulla sed tellus malesuada, sed bibendum nunc bibendum. Curabitur non dapibus magna, quis tempus dui."
 }
 
-export default expereince;
+export default experience;
