@@ -7,12 +7,24 @@ import Contact from "../../components/Contact";
 
 export default function Home() {
   return (
-    <main className="flex items-center justify-center min-h-screen">
-      <div className="flex flex-col items-center">
+    <main className="">
+      <div className="mx-auto w-full max-w-3xl px-4">
+        
         <Welcome/>
         <AboutMe/>
-        <Experience/>
-        <TechStack/>
+        <section>
+          <div >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <Experience/>
+              </div>
+              <div>
+                <TechStack/>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         <Education/>
         <Contact/>
       </div>
